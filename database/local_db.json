@@ -1,0 +1,160 @@
+{
+    "users": [],
+    "expenses": [
+        {
+            "user_id": "local-user",
+            "amount": 3769.5,
+            "category": "Food",
+            "date": "2026-01-07",
+            "payment_mode": "Card",
+            "notes": "Dinner with multiple servings of Veg Biryani, Hakka Noodles, and Butter Naan at Cedarstay Hotels",
+            "merchant": "Cedarstay Hotels",
+            "items": [
+                {
+                    "name": "Veg Biryani",
+                    "price": 360.0,
+                    "quantity": 4
+                },
+                {
+                    "name": "Veg Biryani",
+                    "price": 678.0,
+                    "quantity": 2
+                },
+                {
+                    "name": "Veg Biryani",
+                    "price": 658.0,
+                    "quantity": 2
+                },
+                {
+                    "name": "Hakka Noodles",
+                    "price": 538.0,
+                    "quantity": 2
+                },
+                {
+                    "name": "Hakka Noodles",
+                    "price": 657.0,
+                    "quantity": 3
+                },
+                {
+                    "name": "Butter Naan",
+                    "price": 699.0,
+                    "quantity": 1
+                }
+            ],
+            "receipt_path": "./uploads\\WhatsApp Image 2026-05-26 at 9.23.19 AM (1).jpeg",
+            "_id": "741dd025-ac1e-4f96-9a2c-97e215863807",
+            "created_at": "2026-05-26T04:18:02.497352"
+        },
+        {
+            "user_id": "local-user",
+            "amount": 2212.1,
+            "category": "Food",
+            "date": "2026-05-25",
+            "payment_mode": "Cash",
+            "notes": "Food and drinks order including platters, starters, juice, and alcoholic beverages with a 10% service charge.",
+            "merchant": "Tsf Restaurant",
+            "items": [
+                {
+                    "name": "Lahori Murgh Tandoori F",
+                    "price": 180,
+                    "quantity": 1
+                },
+                {
+                    "name": "Tsf Platter Paneer Aati",
+                    "price": 300,
+                    "quantity": 2
+                },
+                {
+                    "name": "Papad",
+                    "price": 75,
+                    "quantity": 5
+                },
+                {
+                    "name": "Assorted Veg Platter",
+                    "price": 500,
+                    "quantity": 2
+                },
+                {
+                    "name": "Tsf Platter Kadhai Pane",
+                    "price": 300,
+                    "quantity": 2
+                },
+                {
+                    "name": "Choice Of Juice",
+                    "price": 160,
+                    "quantity": 4
+                },
+                {
+                    "name": "Aerated Water",
+                    "price": 60,
+                    "quantity": 2
+                },
+                {
+                    "name": "Bottled Water",
+                    "price": 36,
+                    "quantity": 3
+                },
+                {
+                    "name": "Premium Whisky",
+                    "price": 100,
+                    "quantity": 4
+                },
+                {
+                    "name": "Beer Bottle",
+                    "price": 300,
+                    "quantity": 5
+                }
+            ],
+            "receipt_path": "C:\\Users\\ruthw\\OneDrive\\Attachments\\Desktop\\genai\\expense\\backend\\uploads\\local-user_1779753716.jpeg",
+            "_id": "ceb95388-eebf-45bb-9ae8-c498df952025",
+            "created_at": "2026-05-26T05:32:11.678452"
+        },
+        {
+            "user_id": "local-user",
+            "amount": 3769.5,
+            "category": "Food",
+            "date": "2026-01-07",
+            "payment_mode": "Card",
+            "notes": "Food order of Biryani, Hakka Noodles, and Naan from Cedarstay Hotels",
+            "merchant": "Cedarstay Hotels",
+            "items": [
+                {
+                    "name": "Veg Biryani",
+                    "price": 90,
+                    "quantity": 4
+                },
+                {
+                    "name": "Veg Biryani",
+                    "price": 339,
+                    "quantity": 2
+                },
+                {
+                    "name": "Veg Biryani",
+                    "price": 329,
+                    "quantity": 2
+                },
+                {
+                    "name": "Hakka Noodles",
+                    "price": 269,
+                    "quantity": 2
+                },
+                {
+                    "name": "Hakka Noodles",
+                    "price": 219,
+                    "quantity": 3
+                },
+                {
+                    "name": "Butter Naan",
+                    "price": 699,
+                    "quantity": 1
+                }
+            ],
+            "receipt_path": "C:\\Users\\ruthw\\OneDrive\\Attachments\\Desktop\\genai\\expense\\backend\\uploads\\local-user_1779754031.jpeg",
+            "_id": "fbda538d-81d3-4f47-8f4e-fd6602086d6f",
+            "created_at": "2026-05-26T05:37:23.681793"
+        }
+    ],
+    "income": [],
+    "budgets": [],
+    "chat_history": []
+}

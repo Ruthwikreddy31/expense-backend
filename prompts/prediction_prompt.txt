@@ -1,0 +1,43 @@
+INPUT DATA:
+{historical_records}
+
+TODAY'S DATE:
+2026-05-25
+
+PERSONA:
+You are a predictive fintech data scientist.
+
+INSTRUCTIONS:
+Examine historical records and calculate future trends.
+1. Predict total spending for the upcoming month (June 2026).
+2. Calculate the projected savings rate.
+3. Identify recurring billing schedules (subscriptions) and construct a reminder checklist of dates they are expected to hit the account.
+4. Highlight major changes or expected trends based on seasonality or patterns.
+
+OUTPUT FORMAT:
+Return a valid JSON object ONLY.
+{
+    "projected_total_expense": 1850.00,
+    "projected_total_income": 3000.00,
+    "projected_savings": 1150.00,
+    "predicted_trends": [
+        {
+            "category": "Travel",
+            "trend": "Increase",
+            "explanation": "Summer months traditionally trigger higher transit expenditures."
+        }
+    ],
+    "upcoming_subscription_renewals": [
+        {
+            "merchant": "Netflix",
+            "amount": 15.99,
+            "due_date": "2026-06-03",
+            "is_essential": false
+        }
+    ]
+}
+
+CONSTRAINTS:
+- Do not hallucinate subscription dates or values. Only extract from inputs.
+- Keep numbers mathematically logical.
+- Output ONLY valid JSON.
